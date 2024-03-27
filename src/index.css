@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button { 
+    @apply rounded-md p-1 bg-teal-500 hover:bg-teal-600 text-lg font-semibold text-white w-full;
+}
