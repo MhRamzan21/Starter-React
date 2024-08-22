@@ -1,9 +1,19 @@
+import Footer from "components/Footer";
+import Header from "components/Header";
 import { Outlet } from "react-router-dom";
 
 const DefaultLayout = () => {
   return (
-    <div>
+    <div className="w-full px-10 max-w-screen-xl mx-auto min-h-screen flex flex-col h-full">
+      <div className="py-6">
+        <Header />
+      </div>
+      <div className="flex-1">
       <Outlet />
+      </div>
+      <div className=''>
+        <Footer/>
+      </div>
     </div>
   );
 };

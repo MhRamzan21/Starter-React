@@ -1,3 +1,5 @@
 export const paths = {
-    root: '/'
+    root: '/',
+    about: 'about',
+    content: '/content',
 }
