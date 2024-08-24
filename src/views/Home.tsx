@@ -8,5 +8,6 @@ function Home({}: Props) {
       </h4>
     </div>
   );
+}
 
 export default Home;
